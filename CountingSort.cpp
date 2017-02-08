@@ -16,7 +16,7 @@ void Sortings::CountingSort(int vetor[], int n)
 	}
  
 	k = max - min + 1;
-	/* creates k buckets */
+		
 	int *B = new int [k]; 
 	for(int i = 0; i < k; i++) 
 		B[i] = 0;
